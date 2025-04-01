@@ -11,7 +11,7 @@ let allChars = upperCase + lowerCase + number + symbol;
 passwordButton.onclick = function () {
   let userInput = document.getElementById("userInput").value;
 
-  passLength = userInput;
+  let passLength = userInput;
   let password = "";
   if (userInput < 5) {
     inputBox.value = "Sorry, Lenth Must be Greater than 4!";
