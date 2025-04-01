@@ -14,7 +14,7 @@ body {
 }
 .mainbox {
   width: 99%;
-  max-width: 420px;
+  max-width: 500px;
   padding: 10px;
   /* Glasmorphism effect */
   background: rgba(255, 255, 255, 0.25);
@@ -37,8 +37,7 @@ body {
 .mainbox .userInput label {
   font-size: 19px;
   font-weight: bold;
-  width: 180px;
-  border: 2px solid red;
+  width: 200px;
 }
 .mainbox .userInput input {
   border: 0;
