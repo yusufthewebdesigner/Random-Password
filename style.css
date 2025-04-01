@@ -37,7 +37,8 @@ body {
 .mainbox .userInput label {
   font-size: 19px;
   font-weight: bold;
-  width: 160px;
+  width: 180px;
+  border: 2px solid red;
 }
 .mainbox .userInput input {
   border: 0;
@@ -47,7 +48,7 @@ body {
   border-radius: 10px;
   height: 40px;
   font-size: 17px;
-  width: calc(100% - 160px);
+  width: calc(100% - 180px);
 }
 .mainbox .input {
   display: flex;
