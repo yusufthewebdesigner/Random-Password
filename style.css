@@ -14,7 +14,7 @@ body {
 }
 .mainbox {
   width: 95%;
-  max-width: 400px;
+  max-width: 420px;
   border: 2px solid red;
   padding: 10px;
   /*  */
@@ -65,10 +65,18 @@ body {
   outline: 0;
   width: 100%;
   font-size: 17px;
+  color: black;
 }
-.mainbox .input i {
+.mainbox .input #copyBtn {
   font-size: 24px;
   cursor: pointer;
+  color: black;
+  display: none;
+}
+.mainbox .input #error {
+  font-size: 24px;
+  color: red;
+  display: none;
 }
 .mainbox button {
   border: 0;
@@ -83,7 +91,7 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
-.mainbox .input i:active,
+.mainbox .input #copyBtn:active,
 .mainbox button:active {
   color: red;
 }
