@@ -13,10 +13,10 @@ body {
   justify-content: center;
 }
 .mainbox {
-  width: 98%;
+  width: 99%;
   max-width: 420px;
   padding: 10px;
-  /*  */
+  /* Glasmorphism effect */
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
@@ -27,6 +27,7 @@ body {
 .mainbox h2 {
   margin-bottom: 10px;
   text-align: center;
+  font-size: 22px;
 }
 .mainbox .userInput {
   display: flex;
@@ -34,9 +35,9 @@ body {
   align-items: center;
 }
 .mainbox .userInput label {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
-  width: 45%;
+  width: 55%;
 }
 .mainbox .userInput input {
   border: 0;
@@ -46,7 +47,7 @@ body {
   border-radius: 10px;
   height: 40px;
   font-size: 17px;
-  width: 50%;
+  width: 45%;
 }
 .mainbox .input {
   display: flex;
@@ -65,6 +66,7 @@ body {
   width: 100%;
   font-size: 17px;
   color: black;
+  cursor: default;
 }
 .mainbox .input #copyBtn {
   font-size: 24px;
