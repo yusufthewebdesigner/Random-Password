@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainbox {
+  width: 95%;
+  max-width: 400px;
+  border: 2px solid red;
+  padding: 10px;
+  /*  */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.mainbox h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.mainbox .userInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainbox .userInput label {
+  font-size: 20px;
+  font-weight: bold;
+  width: 45%;
+}
+.mainbox .userInput input {
+  border: 0;
+  outline: 0;
+  background: #ccccff;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 17px;
+  width: 50%;
+}
+.mainbox .input {
+  display: flex;
+  background: #ccccff;
+  border-radius: 10px;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 10px;
+  margin-top: 10px;
+}
+.mainbox .input input {
+  height: 30px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 17px;
+}
+.mainbox .input i {
+  font-size: 24px;
+  cursor: pointer;
+}
+.mainbox button {
+  border: 0;
+  outline: 0;
+  background: violet;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.mainbox .input i:active,
+.mainbox button:active {
+  color: red;
+}
