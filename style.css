@@ -73,6 +73,20 @@ body {
   cursor: pointer;
   color: black;
   display: none;
+  position: relative;
+}
+p {
+  position: absolute;
+  top: -120%;
+  right: -100%;
+  transform: translateX(-16%);
+  width: 120px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  background: blueviolet;
+  border-radius: 10px;
+  padding: 6px 15px;
+  color: white;
 }
 
 .mainbox .input #error {

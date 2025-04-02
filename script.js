@@ -47,4 +47,13 @@ passwordButton.onclick = function () {
 copyButton.onclick = function () {
   inputValue = inputBox.value;
   navigator.clipboard.writeText(inputValue);
+  //
+
+  let pTag = document.createElement("p");
+  pTag.innerText = "Text copied.";
+  copyButton.prepend(pTag);
+
+  setTimeout(() => {
+    pTag.remove();
+  }, 500);
 };
